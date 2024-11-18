@@ -1,0 +1,11 @@
+
+
+$servername = "sql102.infinityfree.com";
+$username = "if0_37205988";
+$password = "msoXVxWIPQK";
+$dbname = "if0_37205988_Contact";
+$con = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+
+if(!$con){
+    echo "Data base no connection";
+}
